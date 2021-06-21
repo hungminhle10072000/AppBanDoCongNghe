@@ -1,0 +1,7 @@
+Tài khoản admin:
+- Tên đăng nhập : admin
+- Mật khẩu : admin
+
+Tài khoản khách hàng:
+- Tên đăng nhập : user
+- Mật khẩu : user

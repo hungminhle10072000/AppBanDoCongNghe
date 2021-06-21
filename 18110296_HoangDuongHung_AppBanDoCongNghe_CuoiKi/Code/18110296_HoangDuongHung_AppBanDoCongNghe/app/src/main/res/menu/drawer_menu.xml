@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Trang chủ">
+        </item>
+        <item
+            android:id="@+id/sp_danhmuc"
+            android:icon="@drawable/category3"
+            android:title="Sản phẩm theo danh mục">
+        </item>
+        <item android:id="@+id/tatca_sanpham"
+            android:icon="@drawable/product"
+            android:title="Tất cả sản phẩm">
+        </item>
+        <item android:id="@+id/lichsu_muahang"
+            android:icon="@drawable/history3"
+            android:title="Lịch sử mua hàng">
+        </item>
+        <item android:id="@+id/thongtin_taikhoan"
+            android:icon="@drawable/account3"
+            android:title="Thông tin tài khoản">
+        </item>
+        <item android:id="@+id/user_thoat"
+            android:icon="@drawable/exit3"
+            android:title="Thoát">
+        </item>
+        </group>
+</menu>

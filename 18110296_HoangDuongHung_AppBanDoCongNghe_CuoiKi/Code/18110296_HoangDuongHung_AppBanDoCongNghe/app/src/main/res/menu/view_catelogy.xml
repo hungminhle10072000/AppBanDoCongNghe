@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/attach_image"
+        android:icon="@drawable/attach_2"
+        android:title="Liên kết"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/update"
+        android:title="Cập nhật"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:title="Xóa"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/admin_back"
+        android:title="Quay lại"
+        app:showAsAction="ifRoom"/>
+
+</menu>

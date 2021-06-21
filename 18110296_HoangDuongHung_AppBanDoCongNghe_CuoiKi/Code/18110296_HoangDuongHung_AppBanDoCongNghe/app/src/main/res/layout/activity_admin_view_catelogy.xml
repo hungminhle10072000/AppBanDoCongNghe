@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminViewCatelogy">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#C0CA33">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:foreground="@drawable/shape_border"
+        android:background="#D2D6CE"
+        android:src="@drawable/camera"
+        android:scaleType="fitXY"
+        android:id="@+id/img_attach"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="80dp"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#f20"
+        android:textSize="20sp"
+        android:id="@+id/lbl_tendanhmuc"
+        android:text="Tên danh mục"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_attach"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <EditText
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/lbl_tendanhmuc"
+        android:hint="Tên danh mục"
+        android:id="@+id/edt_name_cate"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+</RelativeLayout>

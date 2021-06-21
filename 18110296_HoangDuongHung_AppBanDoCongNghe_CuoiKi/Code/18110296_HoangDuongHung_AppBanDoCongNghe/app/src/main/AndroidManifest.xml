@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hcmute.edu.vn.mssv18110296">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeWork">
+
+        <activity android:name=".AdminViewDetailProductOrdersActivity" />
+        <activity android:name=".UserDetailOrderActivity" />
+        <activity android:name=".UserHistoryOrder_Activity" />
+        <activity android:name=".UserInfoAccountActivity" />
+        <activity android:name=".ThongTinKH_ThanhToanActivity" />
+        <activity android:name=".User_All_Product_Activity" />
+        <activity android:name=".User_Product_Category_Activity" />
+        <activity android:name=".User_Category_Activity" />
+        <activity android:name=".User_Cart" />
+        <activity android:name=".DetailProduct" />
+        <activity android:name=".Home_User" />
+        <activity android:name=".AdminViewProduct" />
+        <activity android:name=".AdminAddProduct" />
+        <activity android:name=".AdminAllProduct" />
+        <activity android:name=".AdminViewBrand" />
+        <activity android:name=".AdminAddBrand" />
+        <activity android:name=".AdminAllBrand" />
+        <activity android:name=".AdminViewCatelogy" />
+        <activity android:name=".AdminAddCategory" />
+        <activity android:name=".AllCategoryActivity" />
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">18110296_HoangDuongHung_CuaHangCongNghe</string>
+    <string name="quenmatkhau">Quên mật khẩu</string>
+    <string name="reset">Đặt lại mật khẩu</string>
+    <string name="chitietquenmatkhau">Cung cấp tên đăng nhập và gmail của bạn để lấy lại mật khẩu</string>
+    <string name="title_activity_home__main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_thong_tin">Map</string>
+</resources>
